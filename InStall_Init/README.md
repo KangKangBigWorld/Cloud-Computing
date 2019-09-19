@@ -1,7 +1,3 @@
----
-typora-root-url: JPG
----
-
 # Installation
 
 ## 数学与信息学院  何亚康116072017026 
