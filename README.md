@@ -1,20 +1,26 @@
+---
+typora-root-url: JPG
+---
+
 # Installation
 
 ## 数学与信息学院  何亚康116072017026 
 
 ### 一，腾讯云购买及web shell
 
-![Buy_Tencent_Clound](D:\Github_CloudComputing\JPG\Buy_Tencent_Clound.jpg)
+![image](https://github.com/KangKangBigWorld/Cloud-Computing/blob/master/JPG/Buy_Tencent_Clound.jpg)
 
 ### 二，下载X shell并使用X shell登录腾讯云实例
 
-#### 1.下载X Shell并打开X Shell![Success_Connect](D:\Github_CloudComputing\JPG\Success_Connect.jpg)
+#### 1.下载X Shell并打开X Shell
+
+![image](https://github.com/KangKangBigWorld/Cloud-Computing/blob/master/JPG/Success_Connect.jpg)
 
 #### 2.使用X Shell登录腾讯云
 
 此处要输入名称和主机名 主机名为腾讯云的共有IP地址
 
-![Use_Xshell_Connet](D:\Github_CloudComputing\JPG\Use_Xshell_Connet.jpg)
+![image](https://github.com/KangKangBigWorld/Cloud-Computing/blob/master/JPG/Use_Xshell_Connet.jpg)
 
 此处要输入腾讯云实例的用户名
 
