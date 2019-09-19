@@ -92,7 +92,7 @@
 
 ##### 【6】添加文件夹中的所有文件
 
-![image](https://github.com/KangKangBigWorld/Cloud-Computing/blob/master/InStall_Init/JPG/Git_Add.jpg)
+![image](https://github.com/KangKangBigWorld/Cloud-Computing/blob/master/InStall_Init/JPG/Git_add.jpg)
 
 ##### 【7】提交文件
 
