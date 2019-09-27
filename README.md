@@ -4,5 +4,5 @@
 
 [实验1：InStall_Init](./InStall_Init/README.md)
 
-[实验2：InStall_Init](./InStall_Init/README.md)
+[实验2：WordPress_InStall](./WordPress_InStall/README.md)
 
