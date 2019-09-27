@@ -19,7 +19,7 @@ HTTP服务器：Apache Web 服务器；
 
 使用yum工具安装：
 
-![image](.\Image\Image_1.jpg)
+![](\Image\Image_1.jpg)
 
 sudo命令获得了root用户的执行权限，因此需要验证用户口令。
 安装完成之后，启动Apache Web服务器：
@@ -30,7 +30,6 @@ sudo命令获得了root用户的执行权限，因此需要验证用户口令。
 
 ```
 http://your_cvm_ip/
-1
 ```
 
 若运行正常，将出现如下界面：
