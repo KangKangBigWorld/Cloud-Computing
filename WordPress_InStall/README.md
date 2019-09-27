@@ -19,12 +19,12 @@ HTTP服务器：Apache Web 服务器；
 
 使用yum工具安装：
 
-![](.\Image\Image_1.jpg)
+![](\Image\Image_1.jpg)
 
 sudo命令获得了root用户的执行权限，因此需要验证用户口令。
 安装完成之后，启动Apache Web服务器：
 
-![](.\Image\Image_2.jpg)
+![](\Image\Image_2.jpg)
 
 测试Apache服务器是否成功运行，找到腾讯云实例的公有IP地址(your_cvm_ip)，在你本地主机的浏览器上输入：
 
