@@ -4,7 +4,7 @@
 
 ### 一，腾讯云购买及web shell
 
-![image](https://github.com/KangKangBigWorld/Cloud-Computing/blob/master/InStall_Init/JPG/Buy_Tencent_Clound.jpg)
+![image](./JPG/Buy_Tencent_Clound.jpg)
 
 ### 二，下载X shell并使用X shell登录腾讯云实例
 
