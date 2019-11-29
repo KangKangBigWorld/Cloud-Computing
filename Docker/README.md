@@ -176,3 +176,68 @@ docker push 镜像名:tag标签
 ![](./Image/Push.jpg)
 
 慢慢等咯
+
+***运行wordpress***
+
+![](./Image/WordPress.jpg)
+
+### 四、Dockerfile的创建
+
+![](./Image/idea.jpg)
+
+#### 1、下载基础镜像——centos镜像
+
+```
+docker pull centos
+```
+
+#### 2、创建工作目录
+
+```
+mkdir /opt/apache_wordpress
+cd /opt/apache_wordpress/
+```
+
+
+
+过程：
+
+1.编辑`Dockerfile`文件
+
+在此之前先下载必要的安装包（`MariaDB client、common、compat、serve、wordpress`）（特别慢）
+
+![](./Image/download.jpg)
+
+注：`MariaDB client、common、compat、server、wordpress`要下载到镜像build目录中
+
+
+
+![](./Image/dockerfile.jpg)
+
+2.编辑`setup.sql`文件用来支持`Mysql`
+
+![](./Image/setup.jpg)
+
+3.编辑`server.conf`用来支持`Mysql`
+
+![](./Image/server.jpg)
+
+4.编辑`start.sh`启动脚本
+
+![](./Image/start.jpg)
+
+
+
+5.`docker build -t centos:apache .`构建镜像 
+
+![](./Image/build-t.jpg)
+
+6.`docker run -dit -p 8888:80 centos:apache` 端口映射
+
+7.`docker exec -it 容器ID /bin/bash` 进入容器
+
+8.本地浏览器进入`localhost:8080`查看是否成功
+
+成功进入：
+
+![](./Image/wancheng.jpg)
