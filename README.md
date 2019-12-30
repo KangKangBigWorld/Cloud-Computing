@@ -8,3 +8,5 @@
 
 [实验3：Docker](./Docker/README.md)
 
+[实验4：Ceph](./Ceph/README.md)
+
